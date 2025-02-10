@@ -9,6 +9,7 @@ import java.util.*
 import kotlin.collections.HashSet
 
 @Entity
+@Table(name = "app_user")
 class User() {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
